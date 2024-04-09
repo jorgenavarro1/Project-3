@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 15px;
+}
+iframe {
+	border: none;
+}
+body {
+	background-color: lightblue;
+}
+footer {
+  background-color: #777;
+  color: #fff;
+  text-align: center;
+  padding: 1px 0;
+  position: relative;
+  top: 6.5em;
+}
+header {
+  background-color: #777;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+#main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+}
+#main-nav ul li {
+  display: inline-block;
+  margin: 1em 5em;
+}
+#main-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul, h1, .play-regular {
+  font-family: "Play", Rockwell;
+  font-weight: 400;
+  font-style: normal;
+}
+#main-nav ul li a:hover {
+	background-color: #333;
+	color: lightblue;
+	border-radius: 50px;
+	text-decoration: underline;
+}
+h1, .play-bold {
+  font-family: "Play", Rockwell;
+  font-weight: 700;
+  font-size: 2em;
+  font-style: normal;
+  text-align: center;
+}
+h2 {
+	font-family: Rockwell;
+}
+li {
+	font-family: monospace;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+section#ContactInfo {
+	font-style: italic;
+	text-align: center;
+  position: relative;
+  top: 3em;
+}
+section#education{
+	text-align: center;
+	list-style: none;
+  position: relative;
+  top: 3em;
+}
+section#awards {
+	text-align: center;
+  position: relative;
+  top: 3em;
+}
+section#strokes {
+	text-align: center;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+section#beatles {
+	text-align: center;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+section#macmiller {
+	text-align: center;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+section#pulpfiction {
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+section#lifeisbeautiful {
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+section#holdovers {
+	color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+ul{
+  list-style-type: none;
+}

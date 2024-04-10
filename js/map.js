@@ -4,9 +4,9 @@ function init(){
   var mapOptions = {
     center: myLocation,
     zoom: 20,
-    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    mapTypeId: google.maps.MapTypeId.TERRAIN,
     mapTypeControlOptions: {
-      position: google.maps.ControlPosition.BOTTOM_CENTER
+    position: google.maps.ControlPosition.TOP_CENTER
     }
   };
 

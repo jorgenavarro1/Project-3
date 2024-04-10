@@ -112,3 +112,53 @@ section#holdovers {
 ul{
   list-style-type: none;
 }
+
+@media (min-width: 800px) {
+  section#main{
+    padding: 20px;
+  }
+
+  section#main h1 {
+  font-size: 28px;
+  }
+  section#main {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    text-align: center;
+    clear: left;
+    background-color: darkred;
+  }
+
+  section#main h2 {
+    font-size: 24px;
+  }
+  section#main p {
+    font-size: 16px;
+  }
+  iframe {
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 1000px) {
+  section#main h1 {
+    font-size: 36px;
+  }
+  section#main {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    clear: left;
+    background-color: darkred;
+  }
+  section#main h2 {
+    font-size: 28px;
+  }
+  section#main p {
+    font-size: 18px;
+  }
+}

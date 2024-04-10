@@ -119,22 +119,21 @@ ul{
   }
 
   section#main h1 {
-  font-size: 28px;
+  font-size: 26px;
   }
   section#main {
     width: 90%;
     height: 90%;
     margin: 0 auto;
     text-align: center;
-    clear: left;
     background-color: lightblue;
   }
 
   section#main h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   section#main p {
-    font-size: 16px;
+    font-size: 14px;
   }
   iframe {
     max-width: 100%;
@@ -145,21 +144,20 @@ ul{
 
 @media (min-width: 1000px) {
   section#main h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
   section#main {
     width: 70%;
     height: 70%;
     margin: 0 auto;
     text-align: center;
-    clear: left;
     background-color: lightblue;
   }
   section#main h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   section#main p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 

@@ -166,7 +166,7 @@ ul{
 #wrapper{
   width: 850px;
   height: 600px;
-  background-color: darkred;
+  background-color: #FF0000;
   margin: 0 auto;
   overflow: hidden;
 }

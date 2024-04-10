@@ -127,7 +127,7 @@ ul{
     margin: 0 auto;
     text-align: center;
     clear: left;
-    background-color: darkred;
+    background-color: lightblue;
   }
 
   section#main h2 {
@@ -153,7 +153,7 @@ ul{
     margin: 0 auto;
     text-align: center;
     clear: left;
-    background-color: darkred;
+    background-color: lightblue;
   }
   section#main h2 {
     font-size: 28px;
@@ -166,13 +166,13 @@ ul{
 #wrapper{
   width: 850px;
   height: 600px;
-  background-color: #c00;
+  background-color: lightblue;
   margin: 0 auto;
   overflow: hidden;
 
 #canvas{
   width: 700px;
   height: 500px;
-  background-color: #ccc;
+  background-color: lightblue;
   margin: 30px auto;
 }

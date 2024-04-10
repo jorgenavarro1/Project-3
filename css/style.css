@@ -5,10 +5,10 @@ body{
   font-size: 15px;
 }
 iframe {
-	border: none;
+  border: none;
 }
 body {
-	background-color: lightblue;
+  background-color: lightblue;
 }
 footer {
   background-color: #777;
@@ -44,10 +44,10 @@ ul, h1, .play-regular {
   font-style: normal;
 }
 #main-nav ul li a:hover {
-	background-color: #333;
-	color: lightblue;
-	border-radius: 50px;
-	text-decoration: underline;
+  background-color: #333;
+  color: lightblue;
+  border-radius: 50px;
+  text-decoration: underline;
 }
 h1, .play-bold {
   font-family: "Play", Rockwell;
@@ -57,10 +57,10 @@ h1, .play-bold {
   text-align: center;
 }
 h2 {
-	font-family: Rockwell;
+  font-family: Rockwell;
 }
 li {
-	font-family: monospace;
+  font-family: monospace;
 }
 img {
   display: block;
@@ -69,44 +69,44 @@ img {
   max-width: 50%;
 }
 section#ContactInfo {
-	font-style: italic;
-	text-align: center;
+  font-style: italic;
+  text-align: center;
   position: relative;
   top: 3em;
 }
 section#education{
-	text-align: center;
-	list-style: none;
+  text-align: center;
+  list-style: none;
   position: relative;
   top: 3em;
 }
 section#awards {
-	text-align: center;
+  text-align: center;
   position: relative;
   top: 3em;
 }
 section#strokes {
-	text-align: center;
-	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-align: center;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 section#beatles {
-	text-align: center;
-	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-align: center;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 section#macmiller {
-	text-align: center;
-	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-align: center;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 section#pulpfiction {
-	color: white;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 section#lifeisbeautiful {
-	color: white;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 section#holdovers {
-	color: white;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 ul{
@@ -136,7 +136,7 @@ ul{
     font-size: 14px;
   }
   iframe {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     padding: 2%;
   }
@@ -158,6 +158,11 @@ ul{
   }
   section#main p {
     font-size: 14px;
+  }
+  iframe {
+    max-width: 70%;
+    height: auto;
+    padding: 2%;
   }
 }
 

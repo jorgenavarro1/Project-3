@@ -1,35 +1,14 @@
-function init(){
-  var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(41.837486, -87.622701);
-  var mapOptions = {
-    center: myLocation,
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 20,
-    mapTypeId: google.maps.MapTypeId.TERRAIN,
-    mapTypeControlOptions: {
-    position: google.maps.ControlPosition.TOP_CENTER
-    }
-  };
-
-  var myMap = new google.maps.Map(el, mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myLocation,
-    map: myMap,
-    animation: google.maps.Animation.DROP,
-    icon: 'media/iitlogo.png'
+    center: { lat: 41.837758, lng: -87.622315},
+  });
+  const ctaLayer = new google.maps.KmlLayer({
+    url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",
+    map: map,
   });
 
-  var contentString = '<h1>IIT Gunsaulus Hall</h1>';
-
-  var infowindow = new google.maps.InfoWindow({
-      content: contentString
-    });
-
-  google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(myMap, marker);
-    });
-
-
+ 
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+window.initMap = initMap;

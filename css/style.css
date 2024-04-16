@@ -166,16 +166,14 @@ ul{
   }
 }
 
-#wrapper{
-  width: 850px;
-  height: 600px;
-  background-color: #FF0000;
-  margin: 0 auto;
-  overflow: hidden;
+#map {
+  height: 100%;
+  width: 100%;
 }
-#canvas{
-  width: 700px;
-  height: 500px;
-  background-color: lightblue;
-  margin: 30px auto;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
